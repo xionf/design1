@@ -3,7 +3,6 @@ package status;
 public class Client {
 
     public static void main(String[] args) {
-
         //定义环境角色
         Context context = new Context();
         //初始化状态

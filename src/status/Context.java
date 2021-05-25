@@ -11,7 +11,6 @@ public class Context {
 
     //获得当前状态
     public State getCurrentState() {
-
         return currentState;
     }
 

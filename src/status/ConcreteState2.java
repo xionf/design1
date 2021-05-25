@@ -2,7 +2,6 @@ package status;
 
 public class ConcreteState2 extends State {
 
-
     @Override
     public void handle1() {
         //...
