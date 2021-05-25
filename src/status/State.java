@@ -5,6 +5,7 @@ public abstract class State {
     protected Context context;
     public void setContext(Context context) {
         this.context = context;
+
     }
 
     //行为1
