@@ -2,7 +2,6 @@ package observer;
 
 public class Client {
 
-
     public static void main(String[] args) {
         //创建一个主题
         ConcreteSubject subject = new ConcreteSubject();

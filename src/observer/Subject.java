@@ -6,7 +6,6 @@ public class Subject {
 
 
 
-
     //观察者数组
     private Vector<Observer> oVector = new Vector<>();
 
