@@ -12,6 +12,7 @@ public class RunningState extends LiftState {
     @Override
     public void close() {
 
+
         //什么都不做
     }
 

@@ -26,6 +26,7 @@ public class StoppingState extends LiftState {
     @Override
     public void stop() {
 
+
         System.out.println("电梯停止了");
     }
 

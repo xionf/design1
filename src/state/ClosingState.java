@@ -19,6 +19,7 @@ public class ClosingState extends LiftState {
     //电梯门关了就运行
     @Override
     public void run() {
+
         super.context.setLiftState(Context.RUNNING_STATE);
         super.context.getLiftState().run();
     }
