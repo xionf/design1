@@ -6,6 +6,7 @@ public abstract class LiftState {
 
     public void setContext(Context context) {
         this.context = context;
+
     }
 
     //电梯门开启动作

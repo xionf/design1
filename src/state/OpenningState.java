@@ -20,6 +20,7 @@ public class OpenningState extends LiftState {
     //门开着不能运行
     @Override
     public void run() {
+
         //什么都不做
     }
 

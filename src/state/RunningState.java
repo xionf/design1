@@ -11,6 +11,7 @@ public class RunningState extends LiftState {
     //运行时门肯定是关的
     @Override
     public void close() {
+
         //什么都不做
     }
 
