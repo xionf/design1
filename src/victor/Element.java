@@ -1,5 +1,5 @@
 package victor;
 
-interface Element {
+interface Element<Visitor> {
     void accept(Visitor visitor);
 }

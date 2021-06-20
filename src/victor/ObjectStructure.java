@@ -1,9 +1,6 @@
 package victor;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-
+import java.util.*;
 class ObjectStructure {
     private List<Element> list = new ArrayList<Element>();
     public void accept(Visitor visitor) {
@@ -18,4 +15,3 @@ class ObjectStructure {
     public void remove(Element element) {
         list.remove(element);
     }
-}
